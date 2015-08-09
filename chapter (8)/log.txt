@@ -1,0 +1,41 @@
+2015-06-19 11:25:25,382:INFO::create Mylog
+2015-06-19 11:25:25,382:ERROR::Hello,world!
+2015-06-19 11:40:19,867:INFO::create Mylog
+2015-06-19 11:40:19,869:ERROR::Hello,world![test_log.cc:postfix:14]
+2015-06-19 11:40:19,869:ERROR::Hello,world![test_log.cc:postfix:14]
+2015-06-19 11:40:19,870:ERROR::Hello,world![test_log.cc:postfix:14]
+2015-06-19 11:40:19,871:ERROR::Hello,world![test_log.cc:postfix:14]
+2015-06-19 11:48:49,339:INFO::create Mylog
+2015-06-19 11:48:49,340:ERROR::Hello,world![test_log.cc:main:23]
+2015-06-19 11:48:49,341:ERROR::Hello,world![test_log.cc:main:24]
+2015-06-19 11:48:49,342:ERROR::Hello,world![test_log.cc:main:25]
+2015-06-19 11:48:49,343:ERROR::Hello,world![test_log.cc:main:26]
+2015-06-19 11:55:17,082:INFO::create Mylog
+2015-06-19 11:55:17,084:ERROR::Hello,world![test_log.cc:main:27]
+2015-06-19 11:55:17,085:ERROR::Hello,world![test_log.cc:main:28]
+2015-06-19 11:55:17,085:ERROR::Hello,world![test_log.cc:main:29]
+2015-06-19 11:55:17,086:ERROR::Hello,world![test_log.cc:main:30]
+2015-06-19 11:59:19,826:INFO::create Mylog
+2015-06-19 11:59:19,827:ERROR::Hello,world![test_log.cc:main:34]
+2015-06-19 11:59:19,828:WARN::Hello,world![test_log.cc:main:35]
+2015-06-19 11:59:19,829:INFO::Hello,world![test_log.cc:main:36]
+2015-06-19 11:59:19,829:DEBUG::Hello,world![test_log.cc:main:37]
+2015-06-19 12:06:00,051:INFO::create Mylog
+2015-06-19 12:06:00,052:ERROR::Hello,world![test_log.cc:main:35]
+2015-06-19 12:06:00,053:WARN::Hello,world![test_log.cc:main:36]
+2015-06-19 12:06:00,054:INFO::Hello,world![test_log.cc:main:37]
+2015-06-19 12:06:00,055:DEBUG::Hello,world![test_log.cc:main:38]
+2015-06-19 12:06:00,056:INFO::func[func.cc:func:13]
+2015-06-19 12:08:50,496:INFO::create Mylog
+2015-06-19 12:08:50,497:ERROR::Hello,world![test_log.cc:main:35]
+2015-06-19 12:08:50,498:WARN::Hello,world![test_log.cc:main:36]
+2015-06-19 12:08:50,499:INFO::Hello,world![test_log.cc:main:37]
+2015-06-19 12:08:50,500:DEBUG::Hello,world![test_log.cc:main:38]
+2015-06-19 12:08:50,501:INFO::func[func.cc:func:13]
+2015-06-19 14:26:50,762:INFO::create Mylog
+2015-06-19 14:26:50,763:ERROR::Hello,world![test_log.cc:main:35]
+2015-06-19 14:26:50,764:WARN::Hello,world![test_log.cc:main:36]
+2015-06-19 14:26:50,765:INFO::Hello,world![test_log.cc:main:37]
+2015-06-19 14:26:50,766:DEBUG::Hello,world![test_log.cc:main:38]
+2015-06-19 14:26:50,767:INFO::func[func.cc:func:13]
+2015-06-19 14:26:50,767:INFO::destroy Mylog

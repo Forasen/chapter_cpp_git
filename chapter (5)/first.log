@@ -1,0 +1,5 @@
+2015-06-16 16:29:37,383: ERROR  : Message error!
+2015-06-16 16:29:37,386: INFO  : Program info which can be writtern
+2015-06-16 16:29:37,386: DEBUG  : Message debug!
+2015-06-16 16:29:37,388: WARN  : Message warn!
+2015-06-16 16:29:37,388: FATAL  : Message fatal!

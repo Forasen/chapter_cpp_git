@@ -1,0 +1,53 @@
+/*********************************
+ *@fileName: io.cc
+ *@author  : lemon
+ *@email   : haohb13@gmail.com
+ *@created : 2015-06-15 14:41:49
+**********************************/
+
+#include <iostream>
+#include <string>
+
+
+void printCin()
+{
+	std::cout << "bad  = " << std::cin.bad() << std::endl;
+	std::cout << "fail = " << std::cin.fail() << std::endl;
+	std::cout << "eof  = " << std::cin.eof() << std::endl;
+	std::cout << "good = " << std::cin.good() << std::endl;
+}
+
+
+int main(void)
+{
+	printCin();
+	
+	int inum;//如果输入的是非整型的数据，如字母，则
+			 //流的状态fail置为1;
+			 //输入ctrl + d 表示到了文件末尾,eof置为1，
+			 //同时fail也置为1
+	while(std::cin >> inum)
+	{
+		std::cout << inum << std::endl;
+	}
+
+	printCin();
+
+	std::cin.clear();//恢复流的状态，将good重新置为1,其它的状态置为0
+	std::cin.ignore(1024, '\n');//此外，还需要清空流的缓冲区
+
+	std::cout << std::endl;
+	printCin();
+
+	while(std::cin >> inum)
+	{
+		std::cout << inum << std::endl;
+	}
+	std::cout << std::endl;
+	printCin();
+	
+}
+
+that's new
+
+that's new
